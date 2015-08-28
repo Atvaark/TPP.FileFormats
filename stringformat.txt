@@ -1,0 +1,473 @@
+seg012:0255E030 00000017 C   %d open filehandles\n
+seg012:0255E068 00000038 C   %d ops complete but not yet deleted (might be leaks)\n
+seg012:0255DFE8 0000001A C   %d ops still executing\n
+seg012:0255DF90 0000002F C   %d ops still in prefetch queue (cancelling)\n
+seg012:0255DF30 00000022 C   %d ops still in schedule queue\n
+seg012:0255DCE0 00000010 C   %s = %lld us\n
+seg012:0255DCB8 00000012 C   Emax = %lld ms\n
+seg012:0255DC98 00000020 C   Ops completed by overlap: %d\n
+seg012:0255DC78 0000001B C   Total ops completed: %d\n
+seg012:0255DA18 0000003E C   op %08X:{ ptr:%08llX, dl:%lld, prio:%d, what:%s, path:%s }\n
+seg012:0244AF10 00000011 C  %s [<I=G=%s>%d]
+seg012:0244AEE8 00000022 C  %s [<I=G=%s><I=C=cmn-col-ng|%d>]
+seg012:0249AE68 00000012 C  in function '%s'
+seg012:0249AE98 00000015 C  in function <%s:%d>
+seg012:0242C384 00000014 C %02u:%02u/%02u:%02u
+seg012:0242C39C 00000010 C %02u:%02u/--:--
+seg012:0242C34C 0000001E C %02u:%02u:%02u/%02u:%02u:%02u
+seg012:0242C36C 00000018 C %02u:%02u:%02u/--:--:--
+seg012:0255DC28 0000002B C %09.4f / %08llX: scheduler %08llX %s = %s\n
+seg012:0255DEF0 0000003C C %09.4f / %08llX: scheduler %08llX === PRINT QUEUES END ===\n
+seg012:0255DE58 0000003E C %09.4f / %08llX: scheduler %08llX === PRINT QUEUES START ===\n
+seg012:0255E1D8 0000004F C %09.4f: %14s               off=$%016llX, len=$%08llX, cacheID=%s, index=$%08X\n
+seg012:0255E310 0000004D C %09.4f: %14s op $%08X,                                                   %s\n
+seg012:0255E7E8 00000026 C %09.4f: %14s op $%08X, %-10s %-39s%s\n
+seg012:0255E270 00000042 C %09.4f: %14s op $%08X, %-14s len=$%08llX                      %s\n
+seg012:0255E228 0000003B C %09.4f: %14s op $%08X, %-14s off=$%016llX              %s\n
+seg012:0255E2E0 00000024 C %09.4f: %14s op $%08X, %-49s %-30s\n
+seg012:0255E2B8 00000021 C %09.4f: %14s op $%08X, %-49s %s\n
+seg012:0255E408 0000003B C %09.4f: %14s op $%08X, MEDIA CHECK caused by err = 0x%08X\n
+seg012:0255E3E8 0000001E C %09.4f: %14s op $%08X, RETRY\n
+seg012:0255E738 00000034 C %09.4f: %14s op $%08X, err = $%08X / %-26s      %s\n
+seg012:0255E370 00000042 C %09.4f: %14s op $%08X, off=$%016llX, len=$%08llX,             %s\n
+seg012:0255E448 0000004B C %09.4f: %14s op $%08X, off=$%016llX, len=$%08llX, cacheID=%s, index=$%08X\n
+seg012:0249BA50 00000023 C %4d-%02d-%02dT%02d:%02d:%02d.%03dZ
+seg012:02499AA0 00000014 C %s expected, got %s
+seg012:0249A794 0000000D C %s near '%s'
+seg012:0255C900 0000005C C %s statistics:\n  Cache hits:   %-8lu (%s)\n  Cache misses: %-8lu\n  Cache fills:  %-8lu (%s)\n
+seg012:02420058 00000018 C %s%c%c%c%c_%c%c%c%c%c%c
+seg012:024ECE82 0000000C C %s%c%c.ftex
+seg012:024ACB40 0000000B C %s%llx.dat
+seg012:024ACB34 0000000C C %s%llx.sdat
+seg012:024ACB4B 00000011 C %s%s/%x/%llx.dat
+seg012:024ACB5C 00000011 C %s%s/%x/%llx.dat
+seg012:024ACABC 0000000F C %s%s/foxfs.dat
+seg012:024ACB1E 0000000A C %s%s/prx/
+seg012:024ACB28 0000000C C %s%s/sdata/
+seg012:0243F9BC 00000023 C %s-%s; q=1.0, %s; q=0.5, en; q=0.1
+seg012:02446734 00000008 C %s.ftex
+seg012:023FE9D0 0000000D C %s.permitted
+seg012:024025A0 00000019 C %s/%03d/%s_%03d_%03d.fpk
+seg012:024B2877 00000019 C %s/%03d/%s_%03d_%03d.fpk
+seg012:02420048 00000010 C %s/%s/%s/%s.fpk
+seg012:023FEB18 0000000F C %s/%s/key.edat
+seg012:023FF484 0000001A C %s/Scripts/Classes/%s.lua
+seg012:0246A158 00000012 C %s/av%s_%s%d_%s%d
+seg012:0255C970 00000010 C %s/cach%04X.dat
+seg012:023FEB30 0000000C C %s/data.qar
+seg012:023FEB10 00000007 C %s/dlc
+seg012:0247A5F0 00000021 C %s/pack_area/%s_ly%03d_cl%02d.%s
+seg012:0247A2A8 0000001A C %s/pack_bridge/%s_%03d.%s
+seg012:0247A308 00000015 C %s/pack_common/%s.%s
+seg012:0247A754 00000025 C %s/pack_common/mtbs_common_layout.%s
+seg012:0247A2E8 0000001D C %s/pack_common/mtbs_empty.%s
+seg012:0247A56C 00000024 C %s/pack_cp/mtbs_plnt%d_cp%02d_%s.%s
+seg012:0247A53C 00000020 C %s/pack_division/%s_%03d%01d.%s
+seg012:0247A320 0000001A C %s/pack_layout/%s_%05d.%s
+seg012:0247A730 00000021 C %s/pack_layout/mtbs_color%02d.%s
+seg012:0247A688 0000001B C %s/pack_unique/%s_%03d0.%s
+seg012:0247A6A8 0000001F C %s/pack_unique/%s_%03d0_fob.%s
+seg012:0247A6C8 00000022 C %s/pack_unique/%s_%03d0_uc%02d.%s
+seg012:0247A590 00000026 C %s/pack_unique/mtbs_unique_0050_%s.%s
+seg012:0247A5C8 00000027 C %s/pack_unique/mtbs_uq0030_bush%02d.%s
+seg012:0247A63C 00000023 C %s/pack_unique/mtbs_uq08_plnt%d.%s
+seg012:0247A664 00000021 C %s/pack_unique/mtbs_uq_plnt%d.%s
+seg012:0247A614 00000026 C %s/pack_unique/mtbs_uq_plnt%d_uc00.%s
+seg012:0247A2C4 00000024 C %s/pack_unique/mtbs_uq_plnt_brdg.%s
+seg012:024D8B0C 0000000E C %s/sp/%d.edat
+seg012:0246A118 00000014 C %s0%d_c0%d_bsm.ftex
+seg012:0246A100 00000013 C %s0%d_def_nrm.ftex
+seg012:02499228 0000001C C %s: %s in precompiled chunk
+seg012:02400344 00000009 C %s: 0x%p
+seg012:0241ED6C 00000012 C %s_%03d_%03d.fmdl
+seg012:023FF4A0 00000006 C %s_%s
+seg012:0244673C 0000000A C %s_1.ftex
+seg012:0244674C 0000000A C %s_2.ftex
+seg012:0240867C 00000010 C %s_LUMINANCE_%d
+seg012:0241F034 0000000A C %s_Port%u
+seg012:023FF6CC 0000000A C %s_edb_%s
+seg012:02408670 0000000C C %s_lockable
+seg012:02459C7C 0000000C C %s_ps3.sprx
+seg012:024025C0 00000013 C %s_s_%03d_%03d.fpk
+seg012:02408660 0000000C C %s_viewport
+seg012:0249978C 0000000E C '%s' expected
+seg012:024997EC 00000029 C '%s' expected (to close '%s' at line %d)
+seg012:0249943C 0000001E C 'package.%s' must be a string
+seg012:02409678 0000000A C .%d.ftexs
+seg012:0246A1B0 00000033 C /Assets/tpp/chara/avm/Pictures/%s_%s0_bsm_alp.ftex
+seg012:0246A1E8 0000002B C /Assets/tpp/chara/avm/Pictures/%s_nrm.ftex
+seg012:0246A170 0000002B C /Assets/tpp/chara/avm/Pictures/%s_srm.ftex
+seg012:0246A130 00000027 C /Assets/tpp/chara/avm/Pictures/face/%s
+seg012:024E656F 00000041 C /Assets/tpp/level/location/mtbs/block_layout/mtbs_layout%05d.mbl
+seg012:02446C54 0000001E C /Assets/tpp/ui/Ending/%s.ends
+seg012:02526D74 0000003D C /Assets/tpp/ui/texture/Avatar/%s/ui_avatar_preset_%s_%u.ftex
+seg012:02446F80 0000003C C /Assets/tpp/ui/texture/Manual/%s/%s/%s/game_manual%02u.ftex
+seg012:024E5668 0000003B C /Assets/tpp/ui/texture/Motherbase/ui_mtbs_pf_%d_%d_%s.ftex
+seg012:024E56B3 0000003C C /Assets/tpp/ui/texture/Motherbase/ui_mtbs_pf_animal_%s.ftex
+seg012:024466F4 00000039 C /Assets/tpp/ui/texture/Photo/tpp/%05d/mb_photo_%05d_%03d
+seg012:02449D5C 0000003F C /Assets/tpp/ui/texture/Photo/tpp/%5d/mb_photo_%5d_%03d_%d.ftex
+seg012:02446758 00000044 C /Assets/tpp/ui/texture/Photo/tpp/fob/mb_photo_fob_mtbs_pf_%u_a.ftex
+seg012:024468E8 00000035 C /Assets/tpp/ui/texture/Prestory/sys_prestory_%u.ftex
+seg012:02446ECC 00000032 C /Assets/tpp/ui/texture/Terop/%s/terop_%s_alp.ftex
+seg012:024C7674 00000019 C /dev_hdd0/game/%s/USRDIR
+seg012:0252E843 00000014 C <I=C=cmn-col-ng|%d>
+seg012:0252E857 0000001A C <I=C=cmn-col-special|+%d>
+seg012:02402658 0000002B C Actor(%s) is already a member of scene(%s)
+seg013:025B10E0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:025C26E0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:025DC620 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:025F3300 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0260CBB0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0261B120 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02620FE0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0263AAC0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:026481B0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0265F170 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02667AE0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02672300 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02692DA0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02698F30 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:026A19E0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:026A8170 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:026B98A0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:026C1B60 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:026D5800 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:026DDA30 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:026F1D50 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:026FDD40 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02702380 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0270A4B0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0271FCA0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0272EDD0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0273C300 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:027460A0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0274F900 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02750D20 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0275DA50 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:027722A0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0277D700 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02784380 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0278FF00 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02796760 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:027A2980 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:027A8530 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:027BE980 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:027CF220 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:027E1490 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:027F53D0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:027FAA60 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02813620 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0282A980 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028441A0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02848CA0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0285D3A0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028665B0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02868910 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028709D0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02886E50 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0288F9A0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0289ADF0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028A3920 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028ACE30 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028B4B60 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028BC500 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028C8A60 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028D3580 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028DF7C0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028EB5B0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:028F7AB0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:029064E0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0291A3D0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0292FCE0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02933B30 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:02939610 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0295AF30 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg013:0295C8E0 00000058 C Assert!! memory corruption occured%s\n\tMemory check mask = %#x\n\teaJobDescriptor = %#llx\n
+seg012:02439C28 0000000B C AvatPht_%d
+seg012:02549238 00000010 C Bink %d/%s (%s)
+seg012:02549218 0000000E C Bink %d/%s/%s
+seg012:025491D8 00000013 C Bink %d/%s/%s (%s)
+seg012:025498C0 00000014 C Bink 2 Expand %d-%d
+seg012:023FF924 00000018 C Color( %f, %f, %f, %f )
+seg012:0255CDF0 0000002C C Couldn't open cache file %s for output: %d\n
+seg012:024902C0 0000000A C E0012 %s\n
+seg012:024902F8 00000017 C E0012 inflate end: %s\n
+seg012:024902E0 00000017 C E0012 inflate: %s(%d)\n
+seg013:0278F140 00000020 C EDGE ASSERTION FAILURE: %s(%d)\n
+seg013:02850D40 00000020 C EDGE ASSERTION FAILURE: %s(%d)\n
+seg013:02850CB0 0000003E C EDGE ZLIB ERROR: DecompressInflateQueueElement returned (%d)\n
+seg013:0278F0E0 00000051 C EDGE ZLIB ERROR: Stream decompressed to size different from expected (%d != %d)\n
+seg013:028518C0 00000051 C EDGE ZLIB ERROR: Stream decompressed to size different from expected (%d != %d)\n
+seg013:02850C20 00000042 C EDGE ZLIB ERROR: edgeZlibFetchAndInflateLargeRawData failed (%d)\n
+seg013:02850C70 00000035 C EDGE ZLIB ERROR: edgeZlibInflateRawData failed (%d)\n
+seg013:0278F080 00000025 C EDGE ZLIB ERROR: inflate error (%d)\n
+seg013:02850D80 00000025 C EDGE ZLIB ERROR: inflate error (%d)\n
+seg013:0278F0B0 00000028 C EDGE ZLIB ERROR: inflateEnd error (%d)\n
+seg013:02851890 00000028 C EDGE ZLIB ERROR: inflateEnd error (%d)\n
+seg013:02850BB0 00000067 C EDGE ZLIB ERROR: outputUncompSkipBeginSize(%d) + outputUncompSkipEndSize(%d) > expectedUncompSize(%d)\n
+seg012:0255EAE8 00000030 C Error calling fstat in reopen of file '%s': %s\n
+seg012:0255EB28 00000051 C Error, size of file '%s' after reopen (%lld) doesn't match original size (%lld)\n
+seg012:0255D7E0 00000015 C FIOS %s initialized\n
+seg012:0255D748 00000014 C FIOS %s terminated\n
+seg012:0255CE98 00000031 C FIOS cache auto-flushed '%s' because %s at open\n
+seg012:0255CDB8 00000031 C FIOS cache auto-flushed '%s' because %s at read\n
+seg012:0255C9E8 0000002E C FIOS cache block[%d] delete failed, err = %d\n
+seg012:0255CD30 0000003A C FIOS cache block[%d] for '%s' ignored because %s at read\n
+seg012:0255CD88 0000002C C FIOS cache block[%d] read failed: err = %d\n
+seg012:0255C980 0000002D C FIOS cache block[%d] write failed: err = %d\n
+seg012:0255C5A8 00000034 C FIOS cache couldn't resolve %s! Cache is disabled.\n
+seg012:0255CAF8 00000031 C FIOS cache descriptor[%d] load failed, err = %d\n
+seg012:0255C9B0 00000033 C FIOS cache descriptor[%d] update failed, err = %d\n
+seg012:0255CE58 0000003F C FIOS cache got a write error closing %s after fill: %d (%08X)\n
+seg012:0255CE20 00000035 C FIOS cache got a write error during fill: %d (%08X)\n
+seg012:0255CA18 00000029 C FIOS cache index fsync failed, err = %d\n
+seg012:0255CAC8 0000002E C FIOS cache index mass flush failed, err = %d\n
+seg012:0255CB30 0000002B C FIOS cache index padding failed, err = %d\n
+seg012:0255D050 00000039 C FIOS dearchiver open file '%s' because it's compressed!\n
+seg012:0255D1C0 00000050 C FIOS dearchiver: unrecognized mediarequest %d in executeReadSpecialFromArchive\n
+seg012:0255CC38 00000038 C FIOS failed deleting invalid cache file '%s', err = %d\n
+seg012:0255CBD0 00000033 C FIOS failed reading cache header for %s, err = %d\n
+seg012:0255CB98 00000033 C FIOS failed writing cache header for %s, err = %d\n
+seg012:0255CA80 00000032 C FIOS failure(s) while freeing blocks, result: %d\n
+seg012:0255C770 0000002B C FIOS openCacheFile('%s') failed, err = %d\n
+seg012:0255C600 0000008A C FIOS schedulercache - ERROR - disk full, %s is larger than free space on %s! Cache is disabled. Remove files or reduce numBlocks to fit.\n
+seg012:0255CD70 00000016 C FIOS stat err was %d\n
+seg012:0255F688 00000030 C FIOS: cellSysmoduleInitialize() failed: 0x%08X\n
+seg012:0255F6B8 00000036 C FIOS: cellSysmoduleLoadModule(0x%04X) failed: 0x%08X\n
+seg012:0255ECC8 00000039 C Failures while trying to recover open files on media %s\n
+seg012:0255DCF0 0000002B C Filehandle path too long or invalid: '%s'\n
+seg012:024078DC 00000013 C FontDataTexture_%d
+seg012:023FF464 0000001B C Fox/Scripts/Classes/%s.lua
+seg012:0255DA58 00000045 C Invalid cell::fios::opattr_t.opflags: 0x%08X     Valid mask: 0x%08X\n
+seg012:0240129C 0000001D C Load DataSet file failed!:%s
+seg012:024012BC 0000001C C Load Project file failed:%s
+seg012:02401300 00000025 C LoadEditableDataBodySet() failed!:%s
+seg012:0241ED84 0000000F C MESH_%03d_%03d
+seg012:024BFC18 0000000F C MESH_%03d_%03d
+seg012:0252D646 0000000F C M\b%d:%02d:%02d
+seg012:023FF988 0000002E C Matrix3( %f, %f, %f, %f, %f, %f, %f, %f, %f )
+seg012:023FF93C 0000004A C Matrix4( %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f )
+seg012:0255EDA8 00000013 C Media %s is ready\n
+seg012:02459954 00000042 C Mission.SetKeyPlace() { keyPlaceIndex = %d } is invalid. max: %d.
+seg012:024599E4 00000062 C Mission.SetKeyPlace() { networkTarget = %s } is invalid. Must be one of LOCAL, ALL, AUTH, or TEAM
+seg012:0255DD20 00000023 C Op path too long or invalid: '%s'\n
+seg012:02499B68 00000032 C PANIC: unprotected error in call to Lua API (%s)\n
+seg012:0243A94C 00000023 C Platinum Trophy(%d) was unlocked!\n
+seg012:02400398 00000016 C Property: %s(0x%p).%s
+seg012:023FF9B8 00000017 C Quat( %f, %f, %f, %f )
+seg012:0255D290 00000026 C Reading TOC of '%s' failed! err = %d\n
+seg012:0255D498 0000002B C Reading manifest of '%s' failed! err = %d\n
+seg012:0255ED80 00000022 C Recovered open files on media %s\n
+seg012:02401328 0000001E C RecreateDataBody() failed!:%s
+seg012:02400E90 0000001B C ReloadRequest() failed: %s
+seg012:024012D8 00000025 C SaveEditableDataBodySet() failed!:%s
+seg012:02400C34 0000001A C SetMainBucket() failed:%s
+seg012:0255EDF0 000000CF C Short read at offset %lld: xfer was only %lld of %lld bytes. File size: %lld bytes.\nPossible reasons include disc eject, or attempting to read an encrypted disc when launched from the debugger.\nRetrying...\n
+seg012:0255EEC0 000000A4 C Short write at offset %lld: xfer was only %lld of %lld bytes. File size: %lld bytes.\nPossible reasons include a corrupt HDD1 syscache. Does mkfs help?\nRetrying...\n
+seg012:02402588 00000017 C SmallStageBlockGroup%d
+seg012:024B2864 00000013 C StageLargeLod%d_%d
+seg012:024B2854 00000010 C StageSmallLod%d
+seg012:024A1B50 00000009 C TcRs%d%d
+seg012:0244F758 0000005C C TimerQueue cannot add callback - probably too many callbacks - SetInterval failed for %s.%s
+seg012:02549040 00000012 C Trying to lock %s
+seg012:0248C268 00000018 C UI_Ctrl_PROG_base_%u_%s
+seg012:0252C28F 00000011 C UI_POS_record_%u
+seg012:0252C7A8 00000011 C UI_POS_record_%u
+seg012:0252C90C 00000011 C UI_POS_record_%u
+seg012:025312C8 00000011 C UI_POS_record_%u
+seg012:02531191 00000010 C UI_PROG_icon_%u
+seg012:02446870 00000010 C UI_color_txt_%u
+seg012:02531165 0000000C C UI_gauge_%u
+seg012:02531180 00000011 C UI_gauge_down_%u
+seg012:02531171 0000000F C UI_gauge_up_%u
+seg012:02446E88 0000001B C UI_gz_cct_imp_list_body_%u
+seg012:024E4AE1 00000016 C UI_gz_cmn_key_help_%u
+seg012:024E4AD0 00000011 C UI_gz_cmn_tab_%u
+seg012:0252C2A0 0000000D C UI_record_%u
+seg012:0252C7B9 0000000D C UI_record_%u
+seg012:0252C91D 0000000D C UI_record_%u
+seg012:025312D9 0000000D C UI_record_%u
+seg012:024E45F5 00000019 C UI_sys_end_roll_txt_c_%u
+seg012:02507608 00000019 C UI_sys_end_roll_txt_c_%u
+seg012:024E45DC 00000019 C UI_sys_end_roll_txt_l_%u
+seg012:024E460E 00000019 C UI_sys_end_roll_txt_r_%u
+seg012:0244F718 0000003B C Unable to get TimerCallback - SetInterval failed for %s.%s
+seg012:0255D560 00000048 C Unexpected error from stat(%s) in dearchiver::executeReadDirectory: %d\n
+seg012:025490B8 0000000D C Unlocking %s
+seg012:023FF9EC 00000016 C Vector3( %f, %f, %f )
+seg012:023FF9D0 0000001A C Vector4( %f, %f, %f, %f )
+seg012:0242630C 00000080 C VideoPlayer.AllocateMemoryPool() could not allocate memory. function must be called in block environment. size=%d, alignment=%d
+seg012:02426294 00000038 C VideoPlayer.AllocateMemoryPool() invalid identify = %s.
+seg012:0255F208 00000041 C WARNING! FIOS thread %s is still running as object is destroyed.
+seg012:0255EC88 00000016 C Waiting for media %s\n
+seg012:025490A8 0000000E C Waiting on %s
+seg012:0255F6F0 00000060 C Warning: Compressed data at address 0x%08X is *bigger* than master data (%d > %d).  Pointless?\n
+seg012:023FF8EC 00000024 C WideVecotr3( %f, %f, %f, %hd, %hd )
+seg012:0254902C 0000000E C \b\t\n\vLocked %s
+seg012:02499528 00000021 C \n\tno field package.preload['%s']
+seg012:0249946C 0000000F C \n\tno file '%s'
+seg012:024994D8 0000001E C \n\tno module '%s' in file '%s'
+seg012:024BD940 00000016 C \t%p %s size: %x (%p)\n
+seg012:0240144C 0000001F C __path_to_volatile_bucket_%s__
+seg012:02440FF0 00000018 C alias_mission_%02d_%05d
+seg012:02440FD8 00000017 C area_mission_%02d_%05d
+seg012:02498F54 00000023 C attempt to %s %s '%s' (a %s value)
+seg012:02498F7C 00000019 C attempt to %s a %s value
+seg012:02498FE4 0000001E C attempt to compare %s with %s
+seg012:02498FBC 00000021 C attempt to compare two %s values
+seg012:0255F520 00000024 C attempt to lock invalid mutex '%s'\n
+seg012:0255F4C8 00000027 C attempt to trylock invalid mutex '%s'\n
+seg012:0255F468 00000026 C attempt to unlock invalid mutex '%s'\n
+seg012:024468B8 00000017 C backstory_info_00_%02u
+seg012:024468D0 00000017 C backstory_name_00_%02u
+seg012:02499A30 00000016 C bad argument #%d (%s)
+seg012:02499A80 0000001E C bad argument #%d to '%s' (%s)
+seg012:0249A9F8 00000022 C bit library self-test failed (%s)
+seg012:0255F580 00000020 C broadcast of invalid cond '%s'\n
+seg012:02499A58 0000001E C calling '%s' on bad self (%s)
+seg012:02499B18 00000011 C cannot %s %s: %s
+seg012:02403DC0 00000025 C cannot add a game to application: %s
+seg012:02401254 00000014 C cannot add actor:%s
+seg012:0247AD8C 0000003B C cannot create Quark. Quark count reaches its max value %d.
+seg012:024027EC 00000025 C cannot create Script with path \"%s\".
+seg012:02400BAC 00000023 C cannot create bucket with name(%s)
+seg012:02400BF0 0000001E C cannot delete bucket(code:%s)
+seg012:02400AD8 00000017 C cannot delete scene:%s
+seg012:0247B170 00000021 C cannot dump record(%s). error:%s
+seg012:0247B10C 00000022 C cannot erase record(%s). error:%s
+seg012:02400AF0 00000017 C cannot find \"%s\" scene
+seg012:023FEF70 00000018 C cannot find class \"%s\".
+seg012:02400748 00000018 C cannot find class \"%s\".
+seg012:02400B4C 00000025 C cannot find scene \"%s\" in game \"%s\".
+seg012:024026A8 00000016 C cannot find scene(%s)
+seg012:0247B0BC 00000021 C cannot play record(%s). error:%s
+seg012:02403DE8 00000028 C cannot remove a game to application: %s
+seg012:02401268 00000017 C cannot remove actor:%s
+seg012:0249B58C 0000001B C cannot resume %s coroutine
+seg012:02403E10 00000019 C cannot set main game: %s
+seg012:02453ED0 0000004B C cannot set up composite slot. slot size(%d) is less than required size(%d)
+seg012:0247B060 00000033 C cannot start recording (name:%s size:%d). error:%s
+seg012:0247B0E0 00000029 C cannot stop playing record(%s). error:%s
+seg012:0247B094 00000025 C cannot stop recording (%s). error:%s
+seg012:0255ECA0 00000024 C cellFsStat(%s) returned 0x%08X: %s\n
+seg012:0249A770 00000009 C char(%d)
+seg012:0255C8B0 00000046 C createDirectories: couldn't create '%s' when creating '%s'. err = %d\n
+seg012:0255C868 00000044 C createDirectories: couldn't stat '%s' when creating '%s'. err = %d\n
+seg012:02440FC0 00000017 C date_mission_%02d_%05d
+seg012:0255F308 0000001D C deleting invalid mutex '%s'\n
+seg012:0255F1E8 0000001E C deleting invalid rwlock '%s'\n
+seg012:02506EF4 00000020 C end_mission_%05d_%02d_name_%02d
+seg012:02506ED1 00000023 C end_mission_%05d_%02d_name_%02d_jp
+seg012:02506EB0 00000021 C end_mission_%05d_%02d_title_%02d
+seg012:02506E91 0000001F C end_mission_%05d_%02d_title_00
+seg012:0249947C 0000002E C error loading module '%s' from file '%s':\n\t%s
+seg012:023FF3F4 00000022 C error while calling require(): %s
+seg012:024ACBDF 00000007 C fb(%s)
+seg012:0249AFA8 00000021 C field '%s' missing in date table
+seg012:0255D5E8 0000003F C fios archive readdir: couldn't load manifest for archive '%s'\n
+seg012:0255D510 00000042 C fios close archive ... '%s' is not in our list of open archives!\n
+seg012:0255D4C8 00000047 C fios dearchiver: closing file '%s' has bad archive ptr in filehandle!\n
+seg012:0255D670 0000002C C fios open archive '%s' failed %s: err = %d\n
+seg012:0255D628 00000042 C fios open archive '%s' will not read contents: mode != kO_RDONLY\n
+seg012:0255D390 0000005F C fios read archive error, couldn't allocate decompression buffer for file '%s' in archive '%s'\n
+seg012:0255D320 0000005A C fios read archive error, couldn't allocate read buffer to read file '%s' in archive '%s'\n
+seg012:0255D3F0 00000059 C fios read archive error, couldn't start decompression job for file '%s' in archive '%s'\n
+seg012:0255D168 00000056 C fios read archive error, decompression failed in file '%s' in archive '%s': err = %d\n
+seg012:0255D2B8 00000056 C fios read archive error, reading %s block %lu in file '%s' in archive '%s': err = %d\n
+seg012:0255D210 00000046 C fios read archive failed: archive containing '%s' is already closed!\n
+seg012:0255CFA0 00000051 C fios read archive problem: can't load special '%s' from non-PSARC-MSELF archive\n
+seg012:0255CFF8 00000055 C fios read archive problem: lookup of block %lu in file '%s' in archive '%s' failed!\n
+seg012:024997C4 00000028 C function at line %d has more than %d %s
+seg012:0242D698 0000002D C goalType[%s] : This string is not supported.
+seg012:024A4984 00000010 C http://%s:%d/%s
+seg012:024009F0 00000022 C id_%04d%02d%02d_%02d%02d%02d_%03d
+seg012:0244A94C 0000001C C info_mission_%02d_%05d_%02d
+seg012:0244AA00 0000000B C info_q%05d
+seg012:024EB654 00000049 C instance index range error. index %d is larger than maxInstanceCount %d.
+seg012:024FAE88 00000049 C instance index range error. index %d is larger than maxInstanceCount %d.
+seg012:0251269D 00000049 C instance index range error. index %d is larger than maxInstanceCount %d.
+seg012:02516112 00000049 C instance index range error. index %d is larger than maxInstanceCount %d.
+seg012:0251A3AA 00000049 C instance index range error. index %d is larger than maxInstanceCount %d.
+seg012:0252A8E3 00000049 C instance index range error. index %d is larger than maxInstanceCount %d.
+seg012:02542C2B 00000049 C instance index range error. index %d is larger than maxInstanceCount %d.
+seg012:024FE930 00000035 C instanceIndex error: index is %d but max index is %d
+seg012:0250039C 00000035 C instanceIndex error: index is %d but max index is %d
+seg012:02499AB4 00000014 C invalid option '%s'
+seg012:0249B890 00000021 C invalid replacement value (a %s)
+seg012:02499F00 00000035 C invalid value (%s) at index %d in table for 'concat'
+seg012:02460680 00000012 C langPowerUpInfo%d
+seg012:0241C1A0 00000027 C load module %08x failed. (ret = %08x)\n
+seg012:0241C1C8 0000001D C load module %08x succeeded.\n
+seg012:0244AA64 0000000F C log_speaker_%d
+seg012:02499554 0000002B C loop or previous error loading module '%s'
+seg012:024994C4 0000000B C luaopen_%s
+seg012:0249979C 00000022 C main function has more than %d %s
+seg012:0244A9E0 00000011 C mb_location_%02d
+seg012:0249B81C 00000023 C missing '[' after '%%f' in pattern
+seg012:024995B4 00000019 C module '%s' not found:%s
+seg012:025301AE 00000008 C nP%d/%d
+seg012:0249961C 0000001E C name conflict for module '%s'
+seg012:02499AF4 0000001E C name conflict for module '%s'
+seg012:0244A934 00000017 C name_mission_%02d_%05d
+seg012:0244A8FC 0000001C C name_mission_%02d_%05d_%02d
+seg012:0244A9F4 0000000B C name_q%05d
+seg012:0249B388 00000032 C no function environment for tail call at level %d
+seg012:0244A968 0000001B C obj_mission_%02d_%05d_%02d
+seg012:0255E7C0 0000001E C off=$%016llX,
+seg012:0255E7A0 0000001A C off=$%016llX, len=$%08llX
+seg012:0255E780 0000001E C off=$%016llX, len=max,
+seg012:024902A4 00000012 C offset %08x %08x\n
+seg012:0241D718 00000006 C pad%u
+seg012:0244A9C0 0000001D C photo_mission_%02d_%05d_%02d
+seg012:024003E8 00000029 C property info of entity(%s:0x%p) is NULL
+seg012:0255F140 00000022 C read-locking invalid rwlock '%s'\n
+seg012:0255F0D0 00000024 C read-unlocking invalid rwlock '%s'\n
+seg012:0255F5D8 0000001D C signal of invalid cond '%s'\n
+seg012:02453E70 00000023 C slotIndex(%d) must be less than %d
+seg013:026FDA00 00000030 C spuAlloc(): alloc failed!!! size=%#0x line= %d\n
+seg013:026FD9C0 00000037 C spuAllocAligned(): alloc failed!!! size=%#0x line= %d\n
+seg012:02499AC8 00000014 C stack overflow (%s)
+seg012:0249A154 0000001B C standard %s file is closed
+seg012:0244A91C 00000016 C sub_mission_%02d_%05d
+seg012:0244A8DC 0000001B C sub_mission_%02d_%05d_%02d
+seg012:02449D3C 0000001F C subgoal_mission_%02d_%05d_%02d
+seg012:0244A984 0000001F C subgoal_mission_%02d_%05d_%02d
+seg012:0255F288 00000031 C sys_lwcond_create failed for cond '%s': %d (%s)\n
+seg012:0255F250 00000032 C sys_lwcond_destroy failed for cond '%s': %d (%s)\n
+seg012:0255F5A0 00000031 C sys_lwcond_signal failed for cond '%s': %d (%s)\n
+seg012:0255F548 00000035 C sys_lwcond_signal_all failed for cond '%s': %d (%s)\n
+seg012:0255F638 0000002F C sys_lwcond_wait failed for cond '%s': %d (%s)\n
+seg012:0255F328 0000003E C sys_lwmutex_create failed while creating mutex '%s': %d (%s)\n
+seg012:0255F2C0 00000041 C sys_lwmutex_destroy failed while destroying mutex '%s': %d (%s)\n
+seg012:0255F4F0 00000030 C sys_lwmutex_lock failed on mutex '%s': %d (%s)\n
+seg012:0255F490 00000033 C sys_lwmutex_trylock failed on mutex '%s': %d (%s)\n
+seg012:0255F430 00000032 C sys_lwmutex_unlock failed on mutex '%s': %d (%s)\n
+seg012:0255F3F0 00000037 C sys_ppu_thread_create failed for thread '%s': %d (%s)\n
+seg012:0255F398 00000027 C sys_ppu_thread_get_id failed! %d (%s)\n
+seg012:0255F368 0000002D C sys_ppu_thread_get_priority failed! %d (%s)\n
+seg012:0255F168 00000035 C sys_ppu_thread_join failed for thread '%s': %d (%s)\n
+seg012:0255F3C0 0000002D C sys_ppu_thread_set_priority failed! %d (%s)\n
+seg012:0255F5F8 0000003E C sys_rwlock_create failed while creating rwlock '%s': %d (%s)\n
+seg012:0255F1A0 00000041 C sys_rwlock_destroy failed while destroying rwlock '%s': %d (%s)\n
+seg012:0255F0F8 00000041 C sys_rwlock_rlock failed while read-locking rwlock '%s': %d (%s)\n
+seg012:0255F088 00000045 C sys_rwlock_runlock failed while read-unlocking rwlock '%s': %d (%s)\n
+seg012:0255F018 00000042 C sys_rwlock_wlock failed while write-locking rwlock '%s': %d (%s)\n
+seg012:0255EFA8 00000046 C sys_rwlock_wunlock failed while write-unlocking rwlock '%s': %d (%s)\n
+seg012:024403BC 0000000E C system_%d_all
+seg012:024403CC 0000000E C system_%d_ps3
+seg012:024403DC 0000000E C system_%d_ps4
+seg012:0244040C 0000000E C system_%d_stm
+seg012:024403EC 0000000E C system_%d_x36
+seg012:024403FC 0000000E C system_%d_xb1
+seg012:0244A9A4 0000001C C task_mission_%02d_%05d_%02d
+seg012:024BD8F0 00000039 C tlsf_create: Pool size must be between %u and %u bytes.\n
+seg012:0244AA74 0000000B C tp_m_%d_00
+seg012:02446B8C 00000010 C trg_selector_%d
+seg012:02400460 0000001C C undefined container type %d
+seg012:0247B150 0000001D C unknown sync system state %d
+seg012:02400360 0000002D C value \"%s\" cannot be converted to enum \"%s\".
+seg012:0240047C 0000002A C value(%s) cannot convert to an enum Value
+seg012:0255F668 0000001C C wait for invalid cond '%s'\n
+seg012:0255F060 00000023 C write-locking invalid rwlock '%s'\n
+seg012:0255EFF0 00000025 C write-unlocking invalid rwlock '%s'\n
+seg012:024A9FC8 0000002E C |%a %b %e %T %Y|%m/%d/%y|%H:%M:%S|%I:%M:%S %p
