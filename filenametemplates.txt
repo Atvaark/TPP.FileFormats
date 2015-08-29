@@ -1,0 +1,15 @@
+/Assets/tpp/chara/avm/Pictures/%s_%s0_bsm_alp.ftex
+/Assets/tpp/chara/avm/Pictures/%s_nrm.ftex
+/Assets/tpp/chara/avm/Pictures/%s_srm.ftex
+/Assets/tpp/chara/avm/Pictures/face/%s
+/Assets/tpp/level/location/mtbs/block_layout/mtbs_layout%05d.mbl
+/Assets/tpp/ui/Ending/%s.ends
+/Assets/tpp/ui/texture/Avatar/%s/ui_avatar_preset_%s_%u.ftex
+/Assets/tpp/ui/texture/Manual/%s/%s/%s/game_manual%02u.ftex
+/Assets/tpp/ui/texture/Motherbase/ui_mtbs_pf_%d_%d_%s.ftex
+/Assets/tpp/ui/texture/Motherbase/ui_mtbs_pf_animal_%s.ftex
+/Assets/tpp/ui/texture/Photo/tpp/%05d/mb_photo_%05d_%03d
+/Assets/tpp/ui/texture/Photo/tpp/%5d/mb_photo_%5d_%03d_%d.ftex
+/Assets/tpp/ui/texture/Photo/tpp/fob/mb_photo_fob_mtbs_pf_%u_a.ftex
+/Assets/tpp/ui/texture/Prestory/sys_prestory_%u.ftex
+/Assets/tpp/ui/texture/Terop/%s/terop_%s_alp.ftex
