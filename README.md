@@ -2,6 +2,8 @@
 Fox Engine / Metal Gear Solid V: The Phantom Pain file format research dump.
 
 ##References
+These are tools that were originally created to unpack and repack Metal Gear Solid V: Ground Zeroes (PC) files. These might work with the file formats used in The Phantom Pain.
+
 [GzsTool](https://github.com/Atvaark/GzsTool)
 
 [FtexTool](https://github.com/Atvaark/FtexTool)
@@ -10,8 +12,15 @@ Fox Engine / Metal Gear Solid V: The Phantom Pain file format research dump.
 
 [FoxEngine.TranslationTool](https://github.com/Atvaark/FoxEngine.TranslationTool)
 
-##File Formats
+##Files and file formats
+### Files by platform
+| Platform           | Files                                  |
+| ------------------ | -------------------------------------- |
+| PC                 |                                        |
+| Playstation 3      | [See files_ps3.md](files_ps3.md)       |
+| Xbox 360           |                                        |
 
+###General formats
 | Extension          | Description                            | Associated tools             |
 | ------------------ | -------------------------------------- | ---------------------------- |
 | .ag.evf            |                                        |                              |
