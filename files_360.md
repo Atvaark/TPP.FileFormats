@@ -1,9 +1,9 @@
 | Path                                   | Format             | Encrypted | Compressed |
 | -------------------------------------- | ------------------ | --------- | ---------- |
-| \EBOOT.BIN                             | ELF                | Yes       |            |
-| \mgo.self                              | SELF               | Yes       |            |
-| \contents\ICON0.PNG                    | PNG                |           |            |
-| \contents\PIC1.PNG                     | PNG                |           |            |
+| \Default.xex                           | XEX/ELF            |           |            |
+| \mgo_x360.xex                          | XEX/ELF            |           |            |
+| \nxeart\nxeslot.jpg                    | JPG                |           |            |
+| \nxeart\nxebg.jpg                      | JPG                |           |            |
 | \master\foxfs.dat                      |                    |           |            |
 | \master\175c\bae03369822f9cd5.dat      | SBPB/BKHD (Wwise)  |           |            |
 | \master\175c\bae05f60242ccd2a.dat      | SBPB/BKHD (Wwise)  |           |            |
@@ -297,12 +297,7 @@
 | \master\1a6\d33e74a9a4194f3.dat        | RIFF WAVE (RIFX)   |           |            |
 | \master\1a6\d33e8abe913de69.dat        | RIFF WAVE (RIFX)   |           |            |
 | \master\1a6\d33ecd8c902897b.dat        | RIFF WAVE (RIFX)   |           |            |
-| \master\7b9\3dc88e788a5a8740.dat       | PNG                |           |            |
-| \master\7b9\3dc8acbf53e78f06.dat       | PNG                |           |            |
-| \master\7b9\3dc8c0b801b23384.dat       | PNG                |           |            |
-| \master\7b9\3dc94f8dc8ba0dc6.dat       | PNG                |           |            |
-| \master\7b9\3dcaf02e913fdcfd.dat       | PNG                |           |            |
-| \master\7b9\3dcba13eb2703fc0.dat       | PNG                |           |            |
+| \master\1f8a\fc521c2d8c376f41.dat      |                    |           |            |
 | \master\c3b\61d80447152a6ca7.dat       | SYS/DEMO (.fsm)    |           |            |
 | \master\c3b\61d81198663eb2d9.dat       | SYS/DEMO (.fsm)    |           |            |
 | \master\c3b\61d81c56eb47c92e.dat       | SYS/DEMO (.fsm)    |           |            |
@@ -543,61 +538,7 @@
 | \master\c6c\63628f97fe3f1e9b.dat       | KB2i               |           |            |
 | \master\c6c\6362ab1e26d2949a.dat       | KB2i               |           |            |
 | \master\c6c\636349d5343fb2fb.dat       | KB2i               |           |            |
-| \master\ce0\670025dbda89496e.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\67009992255e886c.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\6700be0e12345701.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\6700cfbf3855d573.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\6700f0716b3ff2b4.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\6700fa956395a744.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\6701226ded1cb814.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\67015ffeb6da9089.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\67019a8e22da65ed.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\67024fa413d50b03.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\67025d96b054683e.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\6702e6947df38fc1.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\6702f66d52247699.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\6703221631244f28.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\67037d219a0d4afe.dat       | Headerless archive |           | zlib?      |
-| \master\ce0\67038efe0b98f465.dat       | Headerless archive |           | zlib?      |
 | \master\ef\77d720e8d8714bc.dat         | Archive (qar/g0s)  | Yes       |            |
 | \master\ef\77e669ec815e58f.dat         | Archive (qar/g0s)  | Yes       |            |
 | \master\ef\77e6d53969026de.dat         | Archive (qar/g0s)  | Yes       |            |
-| \master\ef\77fe67b0ff6b88a             | Archive (qar/g0s)  | Yes       |            |
 | \master\ef\77fe67b0ff6b88a.dat         | Archive (qar/g0s)  | Yes       |            |
-| \master\prx\prx_cypr_ps3.sprx          | SPRX/ELF           | Yes       |            |
-| \master\prx\prx_horvr_ps3.sprx         | SPRX/ELF           | Yes       |            |
-| \master\prx\prx_lqd_ps3.sprx           | SPRX/ELF           | Yes       |            |
-| \master\prx\prx_qui_ps3.sprx           | SPRX/ELF           | Yes       |            |
-| \master\prx\prx_sah_ps3.sprx           | SPRX/ELF           | Yes       |            |
-| \master\prx\prx_sample_ps3.sprx        | SPRX/ELF           | Yes       |            |
-| \master\prx\prx_uav_ps3.sprx           | SPRX/ELF           | Yes       |            |
-| \master\prx\prx_vol_ps3.sprx           | SPRX/ELF           | Yes       |            |
-| \master\prx\prx_volvr_ps3.sprx         | SPRX/ELF           | Yes       |            |
-| \master\prx\prx_wmu_ps3.sprx           | SPRX/ELF           | Yes       |            |
-| \master\sdata\d71c05effb453d61.sdat    | NPD/decals         | AESCBC128 |            |
-| \master\sdata\d71c380a3592e3e4.sdat    | NPD/decals         | AESCBC128 |            |
-| \master\sdata\d71f8fae7780a08f.sdat    | NPD/decals         | AESCBC128 |            |
-| \master\sdata\d71fac2a1196883d.sdat    | NPD/decals	      | AESCBC128 |            |
-| \mgo\foxfs.dat                         |                    |           |            |
-| \mgo\1f8a\fc521c2d8c376f41.dat         |                    |           |            |
-| \mgo\ce0\670025dbda89496e.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\67009992255e886c.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\6700be0e12345701.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\6700cfbf3855d573.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\6700f0716b3ff2b4.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\6701226ded1cb814.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\67015ffeb6da9089.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\67019a8e22da65ed.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\67024fa413d50b03.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\67025d96b054683e.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\6702e6947df38fc1.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\6702f66d52247699.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\6703221631244f28.dat          | Headerless archive |           | zlib?      |
-| \mgo\ce0\67037d219a0d4afe.dat          | Headerless archive |           | zlib?      |
-| \mgo\ef\77d720e8d8714bc.dat            | Archive (qar/g0s)  | Yes       |            |
-| \mgo\ef\77e6d53969026de.dat            | Archive (qar/g0s)  | Yes       |            |
-| \mgo\ef\77fe67b0ff6b88a.dat            | Archive (qar/g0s)  | Yes       |            |
-| \mgo\sdata\d71c05effb453d61.sdat       | NPD/decals         | AESCBC128 |            |
-| \mgo\sdata\d71c380a3592e3e4.sdat       | NPD/decals         | AESCBC128 |            |
-| \mgo\sdata\d71f8fae7780a08f.sdat       | NPD/decals         | AESCBC128 |            |
-| \mgo\sdata\d71fac2a1196883d.sdat       | NPD/decals         | AESCBC128 |            |
