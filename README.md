@@ -16,7 +16,7 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 ### Files by platform
 | Platform           | Files                                  |
 | ------------------ | -------------------------------------- |
-| PC                 |                                        |
+| PC                 | [See files_pc.md](files_pc.md)         |
 | Playstation 3      | [See files_ps3.md](files_ps3.md)       |
 | Xbox 360           | [See files_360.md](files_360.md)       |
 
