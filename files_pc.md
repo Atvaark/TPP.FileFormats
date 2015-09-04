@@ -1,19 +1,19 @@
 | Path                                   | Format             | Encrypted | Compressed |
 | -------------------------------------- | ------------------ | --------- | ---------- |
 | \mgsvtpp.exe                           | EXE                |           |            |
-| \master\chunk0.dat                     |                    |           |            |
-| \master\chunk1.dat                     |                    |           |            |
-| \master\chunk2.dat                     |                    |           |            |
-| \master\chunk3.dat                     |                    |           |            |
-| \master\chunk4.dat                     |                    |           |            |
-| \master\data1.dat                      |                    |           |            |
-| \master\e2f8e499bc8f3606.dat           |                    |           |            |
-| \master\e2f9a1fda590d087.dat           |                    |           |            |
-| \master\e2faa449a7e0781d.dat           |                    |           |            |
-| \master\e2fb02c35da41a21.dat           |                    |           |            |
-| \master\e2fbebbd66f86086.dat           |                    |           |            |
-| \master\texture0.dat                   |                    |           |            |
-| \master\texture1.dat                   |                    |           |            |
-| \master\texture2.dat                   |                    |           |            |
-| \master\texture3.dat                   |                    |           |            |
-| \master\texture4.dat                   |                    |           |            |
+| \master\chunk0.dat                     | QAR                |           |            |
+| \master\chunk1.dat                     | QAR                |           |            |
+| \master\chunk2.dat                     | QAR                |           |            |
+| \master\chunk3.dat                     | QAR                |           |            |
+| \master\chunk4.dat                     | QAR                |           |            |
+| \master\data1.dat                      | QAR                |           |            |
+| \master\e2f8e499bc8f3606.dat           | WMV                |           |            |
+| \master\e2f9a1fda590d087.dat           | WMV                |           |            |
+| \master\e2faa449a7e0781d.dat           | WMV                |           |            |
+| \master\e2fb02c35da41a21.dat           | WMV                |           |            |
+| \master\e2fbebbd66f86086.dat           | WMV                |           |            |
+| \master\texture0.dat                   | QAR                |           |            |
+| \master\texture1.dat                   | QAR                |           |            |
+| \master\texture2.dat                   | QAR                |           |            |
+| \master\texture3.dat                   | QAR                |           |            |
+| \master\texture4.dat                   | QAR                |           |            |
