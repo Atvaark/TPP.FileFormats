@@ -33,7 +33,7 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .fpk               |                                        | GzsTool                                      |
 | .fpkd              |                                        | GzsTool                                      |
 | .pftxs             |                                        | GzsTool                                      |
-| .qar               |                                        | GzsTool (unpacking only)                     |
+| .qar               |                                        | GzsTool                                      |
 | .qar               |                                        | MGSV QAR Tool 1.3                            |
 | .fpk               |                                        | MGSV FPK Tool 1.1                            |
 | .fpkd              |                                        | MGSV FPK Tool 1.1                            |
@@ -194,5 +194,5 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .dnav2             |                                        |                                              |
 | .mbl               |                                        |                                              |
 | .sand              |                                        |                                              |
-| .qar               |                                        | MGSV QAR Tool 1.3 or GzsTool (unpacking only)|
+| .qar               |                                        | MGSV QAR Tool 1.3 or GzsTool                 |
 | .nta               |                                        |                                              |
