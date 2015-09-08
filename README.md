@@ -16,13 +16,53 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 
 [MGSV FPK Tool v1.1 by Sergeanur](https://www.dropbox.com/s/8g8qg35jmluqqlx/MGSV_FPK_Tool.rar?dl=0)
 
-##Files and file formats
+## Files and file formats
 ### Files by platform
 | Platform           | Files                                  |
 | ------------------ | -------------------------------------- |
 | PC                 | [See files_pc.md](files_pc.md)         |
 | Playstation 3      | [See files_ps3.md](files_ps3.md)       |
 | Xbox 360           | [See files_360.md](files_360.md)       |
+
+### Files with associated tools
+| Extension          | Description                            | Associated tools                             |
+| ------------------ | -------------------------------------- | -------------------------------------------- |
+| .json              |                                        | Your preferred text editor                   |
+| .lua               |                                        | Your preferred text editor                   |
+| .xml               |                                        | Your preferred text editor                   |
+| .fpk               |                                        | GzsTool                                      |
+| .fpkd              |                                        | GzsTool                                      |
+| .pftxs             |                                        | GzsTool                                      |
+| .qar               |                                        | GzsTool (unpacking only)                     |
+| .qar               |                                        | MGSV QAR Tool 1.3                            |
+| .fpk               |                                        | MGSV FPK Tool 1.1                            |
+| .fpkd              |                                        | MGSV FPK Tool 1.1                            |
+| .ftex              |                                        | FtexTool                                     |
+| .ftexs             |                                        | FtexTool                                     |
+| .bnd               |                                        | FoxTool                                      |
+| .clo               |                                        | FoxTool                                      |
+| .des               |                                        | FoxTool                                      |
+| .evf               |                                        | FoxTool                                      |
+| .fox2              |                                        | FoxTool                                      |
+| .fsd               |                                        | FoxTool                                      |
+| .ph                |                                        | FoxTool                                      |
+| .phsd              |                                        | FoxTool                                      |
+| .sdf               |                                        | FoxTool                                      |
+| .sim               |                                        | FoxTool                                      |
+| .parts             |                                        | FoxTool                                      |
+| .tgt               |                                        | FoxTool                                      |
+| .veh               |                                        | FoxTool                                      |
+| .lad               |                                        | FoxTool                                      |
+| .subp              |                                        | FoxEngine.TranslationTool                    |
+| .ffnt              |                                        | FoxEngine.TranslationTool (minor issues)     |
+| .eng.lng           |                                        | FoxEngine.TranslationTool (broken)           |
+| .jpn.lng           |                                        | FoxEngine.TranslationTool (broken)           |
+| .fre.lng           |                                        | FoxEngine.TranslationTool (broken)           |
+| .ita.lng           |                                        | FoxEngine.TranslationTool (broken)           |
+| .ger.lng           |                                        | FoxEngine.TranslationTool (broken)           |
+| .spa.lng           |                                        | FoxEngine.TranslationTool (broken)           |
+| .por.lng           |                                        | FoxEngine.TranslationTool (broken)           |
+| .rus.lng           |                                        | FoxEngine.TranslationTool (broken)           |
 
 ###General formats
 | Extension          | Description                            | Associated tools                             |
@@ -60,8 +100,8 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .fova              |                                        |                                              |
 | .fox               |                                        |                                              |
 | .fox2              |                                        | FoxTool                                      |
-| .fpk               |                                        | MGSV FPK Tool 1.1 or GzsTool (broken)        |
-| .fpkd              |                                        | MGSV FPK Tool 1.1 or GzsTool (broken)        |
+| .fpk               |                                        | MGSV FPK Tool 1.1 or GzsTool                 |
+| .fpkd              |                                        | MGSV FPK Tool 1.1 or GzsTool                 |
 | .fpkl              |                                        |                                              |
 | .frdv              |                                        |                                              |
 | .frig              |                                        |                                              |
@@ -106,7 +146,7 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .obrb              |                                        |                                              |
 | .parts             |                                        | FoxTool                                      |
 | .path              |                                        |                                              |
-| .pftxs             |                                        | GzsTool (broken)                             |
+| .pftxs             |                                        | GzsTool                                      |
 | .ph                |                                        | FoxTool                                      |
 | .phep              |                                        |                                              |
 | .phsd              |                                        | FoxTool                                      |
@@ -154,5 +194,5 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .dnav2             |                                        |                                              |
 | .mbl               |                                        |                                              |
 | .sand              |                                        |                                              |
-| .qar               |                                        | MGSV QAR Tool 1.3 or GzsTool (broken)        |
+| .qar               |                                        | MGSV QAR Tool 1.3 or GzsTool (unpacking only)|
 | .nta               |                                        |                                              |
