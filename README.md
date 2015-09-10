@@ -54,15 +54,15 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .veh               |                                        | FoxTool                                      |
 | .lad               |                                        | FoxTool                                      |
 | .subp              |                                        | FoxEngine.TranslationTool                    |
-| .ffnt              |                                        | FoxEngine.TranslationTool (minor issues)     |
-| .eng.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .jpn.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .fre.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .ita.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .ger.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .spa.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .por.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .rus.lng           |                                        | FoxEngine.TranslationTool (broken)           |
+| .ffnt              |                                        | FoxEngine.TranslationTool                    |
+| .eng.lng           |                                        | FoxEngine.TranslationTool                    |
+| .jpn.lng           |                                        | FoxEngine.TranslationTool                    |
+| .fre.lng           |                                        | FoxEngine.TranslationTool                    |
+| .ita.lng           |                                        | FoxEngine.TranslationTool                    |
+| .ger.lng           |                                        | FoxEngine.TranslationTool                    |
+| .spa.lng           |                                        | FoxEngine.TranslationTool                    |
+| .por.lng           |                                        | FoxEngine.TranslationTool                    |
+| .rus.lng           |                                        | FoxEngine.TranslationTool                    |
 
 ###General formats
 | Extension          | Description                            | Associated tools                             |
@@ -127,14 +127,14 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .las               |                                        |                                              |
 | .lba               |                                        |                                              |
 | .lng               |                                        |                                              |
-| .eng.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .jpn.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .fre.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .ita.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .ger.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .spa.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .por.lng           |                                        | FoxEngine.TranslationTool (broken)           |
-| .rus.lng           |                                        | FoxEngine.TranslationTool (broken)           |
+| .eng.lng           |                                        | FoxEngine.TranslationTool                    |
+| .jpn.lng           |                                        | FoxEngine.TranslationTool                    |
+| .fre.lng           |                                        | FoxEngine.TranslationTool                    |
+| .ita.lng           |                                        | FoxEngine.TranslationTool                    |
+| .ger.lng           |                                        | FoxEngine.TranslationTool                    |
+| .spa.lng           |                                        | FoxEngine.TranslationTool                    |
+| .por.lng           |                                        | FoxEngine.TranslationTool                    |
+| .rus.lng           |                                        | FoxEngine.TranslationTool                    |
 | .lpsh              |                                        |                                              |
 | .lua               |                                        | Any text editor                              |
 | .mas               |                                        |                                              |
@@ -180,7 +180,7 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .vo.evf            |                                        |                                              |
 | .wem               |                                        |                                              |
 | .xml               |                                        | Any text editor                              |
-| .ffnt              |                                        | FoxEngine.TranslationTool (minor issues)     |
+| .ffnt              |                                        | FoxEngine.TranslationTool                    |
 | .fsop              |                                        |                                              |
 | .fv2               |                                        |                                              |
 | .1.nav2            |                                        |                                              |
