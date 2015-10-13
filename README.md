@@ -38,6 +38,7 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .fpk               | Archive                                | GzsTool                                      |
 | .fpkd              | Archive                                | GzsTool                                      |
 | .pftxs             | Texture archive                        | GzsTool                                      |
+| .sbp               | Sound archive                          | GzsTool (unpacking only)                     |
 | .qar               | Archive                                | GzsTool                                      |
 | .qar               | Archive                                | MGSV QAR Tool 1.3                            |
 | .fpk               | Archive                                | MGSV FPK Tool 1.1                            |
@@ -147,7 +148,7 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .rdf               |                                              |
 | .sad               |                                              |
 | .sani              |                                              |
-| .sbp               |                                              |
+| .sbp               | GzsTool (unpacking only)                     |
 | .spch              |                                              |
 | .sd.evf            |                                              |
 | .sdf               | FoxTool                                      |
