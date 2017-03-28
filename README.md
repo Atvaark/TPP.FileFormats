@@ -1,7 +1,7 @@
-#TPP.FileFormats
+# TPP.FileFormats
 Fox Engine / Metal Gear Solid V: The Phantom Pain file format research dump.
 
-##References
+## References
 These are tools that were originally created to unpack and repack Metal Gear Solid V: Ground Zeroes (PC) files. These might work with the file formats used in The Phantom Pain.
 
 [GzsTool](https://github.com/Atvaark/GzsTool)
@@ -17,7 +17,9 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 [MGSV FPK Tool v1.1 by Sergeanur](https://www.dropbox.com/s/8g8qg35jmluqqlx/MGSV_FPK_Tool.rar?dl=0)
 
 ## Files and file formats
+
 ### Files by platform
+
 | Platform           | Files                                  |
 | ------------------ | -------------------------------------- |
 | PC                 | [See files_pc.md](files_pc.md)         |
@@ -25,11 +27,13 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | Xbox 360           | [See files_360.md](files_360.md)       |
 
 ### Versions
+
 | Platform           | Versions                               |
 | ------------------ | -------------------------------------- |
 | PC                 | [See versions_pc.md](versions_pc.md)   |
 
 ### Files with associated tools
+
 | Extension          | Description                            | Associated tools                             |
 | ------------------ | -------------------------------------- | -------------------------------------------- |
 | .lua               | Script                                 | Your preferred text editor                   |
@@ -64,7 +68,8 @@ These are tools that were originally created to unpack and repack Metal Gear Sol
 | .lng               | String table                           | FoxEngine.TranslationTool                    |
 | .lng2              | String table                           | FoxEngine.TranslationTool                    |
 
-###General formats
+### General formats
+
 | Extension          | Associated tools                             |
 | ------------------ | -------------------------------------------- |
 | .ag.evf            |                                              |
